@@ -15,7 +15,7 @@
             align-items: center;
             justify-content: space-between;
         ">
-            <img src="{{ asset('storage/' . $t->image) }}"
+            <img src="{{ $t->image }}"
                  alt="testimoni"
                  class="testimoni-img"
                  style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px; cursor: pointer;">
